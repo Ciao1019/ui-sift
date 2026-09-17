@@ -1,0 +1,37 @@
+name: Refresh install statistics
+
+on:
+  schedule:
+    - cron: '17 */6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: install-statistics
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Read tracked installs from skills.sh
+        run: python .github/scripts/update_install_badge.py --repository "$GITHUB_REPOSITORY"
+      - name: Publish changed count
+        shell: bash
+        run: |
+          git add .github/badges/installs.json
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'docs: refresh tracked skill installations'
+          git push origin HEAD:main

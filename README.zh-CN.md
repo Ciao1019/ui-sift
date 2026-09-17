@@ -9,6 +9,7 @@
 [![版本 1.0](https://img.shields.io/badge/version-1.0-18181b)](https://github.com/Ciao1019/ui-sift/releases/tag/v1.0)
 [![MIT 许可](https://img.shields.io/badge/license-MIT-18181b)](LICENSE)
 [![测试](https://github.com/Ciao1019/ui-sift/actions/workflows/validate.yml/badge.svg)](https://github.com/Ciao1019/ui-sift/actions/workflows/validate.yml)
+[![npx 安装次数](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FCiao1019%2Fui-sift%2Fmain%2F.github%2Fbadges%2Finstalls.json)](https://skills.sh/)
 
 [English](README.md) · 简体中文
 
