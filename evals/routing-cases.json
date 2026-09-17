@@ -1,0 +1,214 @@
+{
+  "schema_version": 1,
+  "purpose": "离线检索回归用例；不代表 Agent 视觉效果评估。",
+  "cases": [
+    {
+      "id": "react-date-range",
+      "query": "日期范围筛选",
+      "framework": "react",
+      "top_source": "shadcn",
+      "exclude_sources": [
+        "dayflow"
+      ],
+      "intents": [
+        "date"
+      ]
+    },
+    {
+      "id": "full-schedule",
+      "query": "日程管理，周视图拖拽排程",
+      "framework": "react",
+      "top_source": "dayflow",
+      "exclude_sources": [
+        "shadcn"
+      ],
+      "intents": [
+        "schedule"
+      ]
+    },
+    {
+      "id": "vue-command",
+      "query": "command palette",
+      "framework": "vue",
+      "top_source": "nxui",
+      "allowed_sources": [
+        "nxui"
+      ],
+      "intents": [
+        "command"
+      ]
+    },
+    {
+      "id": "nuxt-alias",
+      "query": "命令面板",
+      "framework": "nuxt",
+      "top_source": "nxui",
+      "allowed_sources": [
+        "nxui"
+      ],
+      "intents": [
+        "command"
+      ]
+    },
+    {
+      "id": "templ-forms",
+      "query": "forms",
+      "framework": "go-templ",
+      "top_source": "shadcn-templ",
+      "allowed_sources": [
+        "shadcn-templ"
+      ],
+      "intents": [
+        "forms"
+      ]
+    },
+    {
+      "id": "readonly-cn",
+      "query": "只读 Markdown，不要引入编辑器",
+      "framework": "react",
+      "top_source": "lobe",
+      "exclude_sources": [
+        "plate"
+      ],
+      "intents": [
+        "markdown"
+      ],
+      "top_name": "Markdown"
+    },
+    {
+      "id": "readonly-en",
+      "query": "Markdown without editor",
+      "framework": "react",
+      "top_source": "lobe",
+      "exclude_sources": [
+        "plate"
+      ],
+      "intents": [
+        "markdown"
+      ],
+      "top_name": "Markdown"
+    },
+    {
+      "id": "template-is-not-plate",
+      "query": "template",
+      "framework": "react",
+      "empty": true,
+      "intents": []
+    },
+    {
+      "id": "preserve-assistant-runtime",
+      "query": "AI 对话",
+      "framework": "react",
+      "profile": {
+        "packages": [
+          {
+            "dependencies": {
+              "@assistant-ui/react": "^0.12"
+            }
+          }
+        ]
+      },
+      "top_source": "assistant-ui",
+      "intents": [
+        "chat"
+      ]
+    },
+    {
+      "id": "document-review",
+      "query": "document review",
+      "framework": "react",
+      "top_source": "extend",
+      "allowed_sources": [
+        "extend"
+      ],
+      "intents": [
+        "document"
+      ]
+    },
+    {
+      "id": "file-tree",
+      "query": "file tree",
+      "framework": "react",
+      "include_sources": [
+        "kibo",
+        "tripled"
+      ],
+      "intents": [
+        "tree"
+      ]
+    },
+    {
+      "id": "no-new-deps",
+      "query": "分享权限弹层",
+      "framework": "react",
+      "no_new_dependencies": true,
+      "top_source": "moumen",
+      "use": "inspiration_only",
+      "intents": [
+        "permission"
+      ]
+    },
+    {
+      "id": "explicit-intent",
+      "query": "custom naming",
+      "framework": "react",
+      "explicit_intents": [
+        "date"
+      ],
+      "top_source": "shadcn",
+      "intents": [
+        "date"
+      ]
+    },
+    {
+      "id": "unknown-coverage",
+      "query": "quantum pulse inspector",
+      "framework": "react",
+      "empty": true,
+      "intents": []
+    },
+    {
+      "id": "inspiration-no-runtime",
+      "query": "灵感",
+      "framework": "html",
+      "top_source": "variant",
+      "use": "inspiration_only",
+      "intents": [
+        "inspiration"
+      ]
+    },
+    {
+      "id": "static-icons",
+      "query": "icons",
+      "framework": "react",
+      "motion": 0,
+      "empty": true,
+      "intents": [
+        "icons"
+      ]
+    },
+    {
+      "id": "explicit-source-exclusion",
+      "query": "不要使用 DayFlow，只做日期范围筛选",
+      "framework": "react",
+      "top_source": "shadcn",
+      "exclude_sources": [
+        "dayflow"
+      ],
+      "intents": [
+        "date"
+      ]
+    },
+    {
+      "id": "document-locate-citations",
+      "query": "文档审核，定位原文",
+      "framework": "react",
+      "top_source": "extend",
+      "top_name": "Bounding Box Citations / Layout Blocks",
+      "intents": [
+        "document",
+        "citations"
+      ]
+    }
+  ]
+}

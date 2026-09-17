@@ -1,0 +1,4 @@
+interface:
+  display_name: "UI Sift · 简洁交互"
+  short_description: "精选 UI 组件与官方接入指南，让前端保持简洁、统一且交互精致"
+  default_prompt: "用 $ui-sift 按项目现有技术栈打磨这个界面，选择合适的精选组件并完成视觉与交互验证。"

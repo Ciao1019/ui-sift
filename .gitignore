@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+.venv/
+node_modules/
+dist/
+.env
+.env.*
+/profile.json
+/report.json
+/moumen-llms.txt
+/skills-lock.json
+/.agents/
+/.codex/

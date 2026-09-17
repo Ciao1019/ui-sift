@@ -1,0 +1,893 @@
+{
+  "schema_version": 1,
+  "verified_at": "2026-09-17",
+  "components": [
+    {
+      "id": "astryx-1",
+      "source": "astryx",
+      "name": "Table",
+      "intents": [
+        "table"
+      ],
+      "motion": 1,
+      "integration_cost": 2,
+      "api_verified": false,
+      "install_id": null
+    },
+    {
+      "id": "astryx-2",
+      "source": "astryx",
+      "name": "Metadata List / Token",
+      "intents": [
+        "layout"
+      ],
+      "motion": 0,
+      "integration_cost": 2,
+      "api_verified": false,
+      "install_id": null
+    },
+    {
+      "id": "astryx-3",
+      "source": "astryx",
+      "name": "Power Search",
+      "intents": [
+        "command"
+      ],
+      "motion": 1,
+      "integration_cost": 2,
+      "api_verified": false,
+      "install_id": null
+    },
+    {
+      "id": "astryx-4",
+      "source": "astryx",
+      "name": "App Shell",
+      "intents": [
+        "layout"
+      ],
+      "motion": 0,
+      "integration_cost": 2,
+      "api_verified": false,
+      "install_id": null
+    },
+    {
+      "id": "tool-ui-1",
+      "source": "tool-ui",
+      "name": "Citation",
+      "intents": [
+        "citations",
+        "tool-result"
+      ],
+      "motion": 0,
+      "integration_cost": 1,
+      "api_verified": false,
+      "install_id": null
+    },
+    {
+      "id": "tool-ui-2",
+      "source": "tool-ui",
+      "name": "Data Table",
+      "intents": [
+        "table",
+        "tool-result"
+      ],
+      "motion": 0,
+      "integration_cost": 1,
+      "api_verified": false,
+      "install_id": null
+    },
+    {
+      "id": "tool-ui-3",
+      "source": "tool-ui",
+      "name": "Plan / Progress Tracker",
+      "intents": [
+        "progress",
+        "tool-result"
+      ],
+      "motion": 1,
+      "integration_cost": 1,
+      "api_verified": false,
+      "install_id": null
+    },
+    {
+      "id": "tool-ui-4",
+      "source": "tool-ui",
+      "name": "Approval Card / Option List",
+      "intents": [
+        "tool-result"
+      ],
+      "motion": 1,
+      "integration_cost": 1,
+      "api_verified": false,
+      "install_id": null
+    },
+    {
+      "id": "assistant-ui-1",
+      "source": "assistant-ui",
+      "name": "Thread / Composer",
+      "intents": [
+        "chat"
+      ],
+      "motion": 1,
+      "integration_cost": 2,
+      "api_verified": false,
+      "install_id": null,
+      "query_terms": [
+        "AI 对话",
+        "chat",
+        "流式消息"
+      ]
+    },
+    {
+      "id": "assistant-ui-2",
+      "source": "assistant-ui",
+      "name": "Syntax Highlighter / Shiki Highlighter",
+      "intents": [
+        "code"
+      ],
+      "motion": 0,
+      "integration_cost": 1,
+      "api_verified": false,
+      "install_id": null,
+      "query_terms": [
+        "代码高亮",
+        "syntax highlighting",
+        "syntax highlighter",
+        "shiki"
+      ]
+    },
+    {
+      "id": "assistant-ui-3",
+      "source": "assistant-ui",
+      "name": "Tool Timeline / Job Progress",
+      "intents": [
+        "tool-result",
+        "progress"
+      ],
+      "motion": 1,
+      "integration_cost": 1,
+      "api_verified": false,
+      "install_id": null
+    },
+    {
+      "id": "assistant-ui-4",
+      "source": "assistant-ui",
+      "name": "Reviewable Diff",
+      "intents": [
+        "code"
+      ],
+      "motion": 0,
+      "integration_cost": 1,
+      "api_verified": false,
+      "install_id": null,
+      "query_terms": [
+        "代码差异",
+        "diff"
+      ]
+    },
+    {
+      "id": "beam-1",
+      "source": "beam",
+      "name": "Border Beam / Thinking Orbs",
+      "intents": [
+        "progress"
+      ],
+      "motion": 2,
+      "integration_cost": 1,
+      "api_verified": false,
+      "install_id": null
+    },
+    {
+      "id": "lobe-1",
+      "source": "lobe",
+      "name": "Markdown",
+      "intents": [
+        "markdown"
+      ],
+      "motion": 0,
+      "integration_cost": 2,
+      "api_verified": false,
+      "install_id": null,
+      "query_terms": [
+        "markdown",
+        "只读文章",
+        "只读内容"
+      ]
+    },
+    {
+      "id": "lobe-2",
+      "source": "lobe",
+      "name": "CodeDiff / Snippet",
+      "intents": [
+        "code"
+      ],
+      "motion": 0,
+      "integration_cost": 1,
+      "api_verified": false,
+      "install_id": null
+    },
+    {
+      "id": "lobe-3",
+      "source": "lobe",
+      "name": "Toc",
+      "intents": [
+        "markdown"
+      ],
+      "motion": 0,
+      "integration_cost": 1,
+      "api_verified": false,
+      "install_id": null,
+      "query_terms": [
+        "目录",
+        "toc",
+        "table of contents"
+      ]
+    },
+    {
+      "id": "mindmapcn-1",
+      "source": "mindmapcn",
+      "name": "MindMap / MindMapControls",
+      "intents": [
+        "mindmap"
+      ],
+      "motion": 1,
+      "integration_cost": 2,
+      "api_verified": false,
+      "install_id": null
+    },
+    {
+      "id": "extend-1",
+      "source": "extend",
+      "name": "PDF / DOCX / Excel Viewer",
+      "intents": [
+        "document"
+      ],
+      "motion": 0,
+      "integration_cost": 3,
+      "api_verified": false,
+      "install_id": null,
+      "query_terms": [
+        "文档预览",
+        "document viewer",
+        "pdf",
+        "docx",
+        "xlsx"
+      ]
+    },
+    {
+      "id": "extend-2",
+      "source": "extend",
+      "name": "Bounding Box Citations / Layout Blocks",
+      "intents": [
+        "document",
+        "citations"
+      ],
+      "motion": 1,
+      "integration_cost": 2,
+      "api_verified": false,
+      "install_id": null,
+      "query_terms": [
+        "定位原文",
+        "原文定位",
+        "引用",
+        "citations"
+      ]
+    },
+    {
+      "id": "extend-3",
+      "source": "extend",
+      "name": "Schema Builder",
+      "intents": [
+        "document"
+      ],
+      "motion": 0,
+      "integration_cost": 2,
+      "api_verified": false,
+      "install_id": null,
+      "query_terms": [
+        "schema",
+        "字段结构"
+      ]
+    },
+    {
+      "id": "extend-4",
+      "source": "extend",
+      "name": "File Upload",
+      "intents": [
+        "upload"
+      ],
+      "motion": 1,
+      "integration_cost": 1,
+      "api_verified": false,
+      "install_id": null
+    },
+    {
+      "id": "extend-5",
+      "source": "extend",
+      "name": "E-Signature",
+      "intents": [
+        "signature",
+        "document"
+      ],
+      "motion": 1,
+      "integration_cost": 2,
+      "api_verified": false,
+      "install_id": null,
+      "query_terms": [
+        "signature",
+        "签名"
+      ]
+    },
+    {
+      "id": "kibo-1",
+      "source": "kibo",
+      "name": "Tree",
+      "intents": [
+        "tree"
+      ],
+      "motion": 0,
+      "integration_cost": 1,
+      "api_verified": false,
+      "install_id": null
+    },
+    {
+      "id": "kibo-2",
+      "source": "kibo",
+      "name": "Table",
+      "intents": [
+        "table"
+      ],
+      "motion": 0,
+      "integration_cost": 1,
+      "api_verified": false,
+      "install_id": null
+    },
+    {
+      "id": "kibo-3",
+      "source": "kibo",
+      "name": "Dropzone",
+      "intents": [
+        "upload"
+      ],
+      "motion": 1,
+      "integration_cost": 1,
+      "api_verified": false,
+      "install_id": null
+    },
+    {
+      "id": "kibo-4",
+      "source": "kibo",
+      "name": "Color Picker",
+      "intents": [
+        "color"
+      ],
+      "motion": 0,
+      "integration_cost": 1,
+      "api_verified": false,
+      "install_id": null
+    },
+    {
+      "id": "kibo-5",
+      "source": "kibo",
+      "name": "Image Zoom",
+      "intents": [
+        "image"
+      ],
+      "motion": 1,
+      "integration_cost": 1,
+      "api_verified": false,
+      "install_id": null
+    },
+    {
+      "id": "kibo-6",
+      "source": "kibo",
+      "name": "Gantt / Kanban",
+      "intents": [
+        "kanban"
+      ],
+      "motion": 1,
+      "integration_cost": 2,
+      "api_verified": false,
+      "install_id": null
+    },
+    {
+      "id": "cuicui-1",
+      "source": "cuicui",
+      "name": "React Signature",
+      "intents": [
+        "signature"
+      ],
+      "motion": 1,
+      "integration_cost": 1,
+      "api_verified": false,
+      "install_id": null
+    },
+    {
+      "id": "dayflow-1",
+      "source": "dayflow",
+      "name": "Multi-view Calendar",
+      "intents": [
+        "schedule"
+      ],
+      "motion": 1,
+      "integration_cost": 3,
+      "api_verified": false,
+      "install_id": null
+    },
+    {
+      "id": "dayflow-2",
+      "source": "dayflow",
+      "name": "Resource Timeline / Resource Grid",
+      "intents": [
+        "schedule"
+      ],
+      "motion": 1,
+      "integration_cost": 3,
+      "api_verified": false,
+      "install_id": null
+    },
+    {
+      "id": "nxui-1",
+      "source": "nxui",
+      "name": "Command Menu",
+      "intents": [
+        "command"
+      ],
+      "motion": 1,
+      "integration_cost": 1,
+      "api_verified": false,
+      "install_id": null
+    },
+    {
+      "id": "nxui-2",
+      "source": "nxui",
+      "name": "Drag Reorder List",
+      "intents": [
+        "reorder"
+      ],
+      "motion": 1,
+      "integration_cost": 1,
+      "api_verified": false,
+      "install_id": null
+    },
+    {
+      "id": "nxui-3",
+      "source": "nxui",
+      "name": "Signature",
+      "intents": [
+        "signature"
+      ],
+      "motion": 1,
+      "integration_cost": 1,
+      "api_verified": false,
+      "install_id": null
+    },
+    {
+      "id": "nxui-4",
+      "source": "nxui",
+      "name": "Stepper / Animated TOC",
+      "intents": [
+        "layout"
+      ],
+      "motion": 1,
+      "integration_cost": 1,
+      "api_verified": false,
+      "install_id": null
+    },
+    {
+      "id": "nxui-5",
+      "source": "nxui",
+      "name": "Curved Drawer",
+      "intents": [
+        "dialog"
+      ],
+      "motion": 1,
+      "integration_cost": 1,
+      "api_verified": false,
+      "install_id": null
+    },
+    {
+      "id": "shadcn-templ-1",
+      "source": "shadcn-templ",
+      "name": "Field / Dialog / Table",
+      "intents": [
+        "forms",
+        "dialog",
+        "table"
+      ],
+      "motion": 0,
+      "integration_cost": 1,
+      "api_verified": false,
+      "install_id": null
+    },
+    {
+      "id": "shadcn-templ-2",
+      "source": "shadcn-templ",
+      "name": "Sidebar / Blocks",
+      "intents": [
+        "layout"
+      ],
+      "motion": 0,
+      "integration_cost": 1,
+      "api_verified": false,
+      "install_id": null
+    },
+    {
+      "id": "moumen-1",
+      "source": "moumen",
+      "name": "File Upload Staging Area",
+      "intents": [
+        "upload"
+      ],
+      "motion": 1,
+      "integration_cost": 1,
+      "api_verified": false,
+      "install_id": null
+    },
+    {
+      "id": "moumen-2",
+      "source": "moumen",
+      "name": "Share & Permissions Popover",
+      "intents": [
+        "permission"
+      ],
+      "motion": 1,
+      "integration_cost": 1,
+      "api_verified": false,
+      "install_id": null
+    },
+    {
+      "id": "moumen-3",
+      "source": "moumen",
+      "name": "Command Palette with Argument Chips",
+      "intents": [
+        "command"
+      ],
+      "motion": 1,
+      "integration_cost": 1,
+      "api_verified": false,
+      "install_id": null
+    },
+    {
+      "id": "moumen-4",
+      "source": "moumen",
+      "name": "OTP Segmented Input",
+      "intents": [
+        "otp"
+      ],
+      "motion": 1,
+      "integration_cost": 1,
+      "api_verified": false,
+      "install_id": null
+    },
+    {
+      "id": "moumen-5",
+      "source": "moumen",
+      "name": "Drag-to-Reorder List",
+      "intents": [
+        "reorder"
+      ],
+      "motion": 1,
+      "integration_cost": 1,
+      "api_verified": false,
+      "install_id": null
+    },
+    {
+      "id": "tripled-1",
+      "source": "tripled",
+      "name": "Native Nested List",
+      "intents": [
+        "tree"
+      ],
+      "motion": 1,
+      "integration_cost": 1,
+      "api_verified": false,
+      "install_id": null
+    },
+    {
+      "id": "tripled-2",
+      "source": "tripled",
+      "name": "Tabs / Tooltip",
+      "intents": [
+        "segmented"
+      ],
+      "motion": 1,
+      "integration_cost": 1,
+      "api_verified": false,
+      "install_id": null
+    },
+    {
+      "id": "tripled-3",
+      "source": "tripled",
+      "name": "Accessible Image Slider Card",
+      "intents": [
+        "image"
+      ],
+      "motion": 1,
+      "integration_cost": 1,
+      "api_verified": false,
+      "install_id": null
+    },
+    {
+      "id": "tripled-4",
+      "source": "tripled",
+      "name": "Detail Task Card",
+      "intents": [
+        "kanban"
+      ],
+      "motion": 1,
+      "integration_cost": 1,
+      "api_verified": false,
+      "install_id": null
+    },
+    {
+      "id": "godui-1",
+      "source": "godui",
+      "name": "Segmented Control",
+      "intents": [
+        "segmented"
+      ],
+      "motion": 1,
+      "integration_cost": 1,
+      "api_verified": false,
+      "install_id": null
+    },
+    {
+      "id": "godui-2",
+      "source": "godui",
+      "name": "Highlighter",
+      "intents": [
+        "highlight"
+      ],
+      "motion": 1,
+      "integration_cost": 1,
+      "api_verified": false,
+      "install_id": null
+    },
+    {
+      "id": "godui-3",
+      "source": "godui",
+      "name": "Morphing Dialog",
+      "intents": [
+        "dialog"
+      ],
+      "motion": 1,
+      "integration_cost": 1,
+      "api_verified": false,
+      "install_id": null
+    },
+    {
+      "id": "godui-4",
+      "source": "godui",
+      "name": "Agent Timeline",
+      "intents": [
+        "progress",
+        "tool-result"
+      ],
+      "motion": 1,
+      "integration_cost": 1,
+      "api_verified": false,
+      "install_id": null
+    },
+    {
+      "id": "godui-5",
+      "source": "godui",
+      "name": "Filter Bar",
+      "intents": [
+        "table"
+      ],
+      "motion": 1,
+      "integration_cost": 1,
+      "api_verified": false,
+      "install_id": null
+    },
+    {
+      "id": "prompt-kit-1",
+      "source": "prompt-kit",
+      "name": "Prompt Input / Chat Container",
+      "intents": [
+        "chat"
+      ],
+      "motion": 1,
+      "integration_cost": 1,
+      "api_verified": false,
+      "install_id": null
+    },
+    {
+      "id": "prompt-kit-2",
+      "source": "prompt-kit",
+      "name": "Source",
+      "intents": [
+        "citations"
+      ],
+      "motion": 0,
+      "integration_cost": 1,
+      "api_verified": false,
+      "install_id": null
+    },
+    {
+      "id": "prompt-kit-3",
+      "source": "prompt-kit",
+      "name": "Steps / Thinking Bar",
+      "intents": [
+        "progress"
+      ],
+      "motion": 1,
+      "integration_cost": 1,
+      "api_verified": false,
+      "install_id": null
+    },
+    {
+      "id": "heroicons-1",
+      "source": "heroicons",
+      "name": "Action Icons",
+      "intents": [
+        "icons"
+      ],
+      "motion": 1,
+      "integration_cost": 1,
+      "api_verified": false,
+      "install_id": null
+    },
+    {
+      "id": "plate-1",
+      "source": "plate",
+      "name": "Editor / Floating Toolbar / Slash Command",
+      "intents": [
+        "editor"
+      ],
+      "motion": 1,
+      "integration_cost": 3,
+      "api_verified": false,
+      "install_id": null
+    },
+    {
+      "id": "plate-2",
+      "source": "plate",
+      "name": "Comments / Suggestion",
+      "intents": [
+        "editor"
+      ],
+      "motion": 0,
+      "integration_cost": 3,
+      "api_verified": false,
+      "install_id": null
+    },
+    {
+      "id": "ruixen-1",
+      "source": "ruixen",
+      "name": "Structured Hero / Split Feature Showcase",
+      "intents": [
+        "marketing"
+      ],
+      "motion": 1,
+      "integration_cost": 1,
+      "api_verified": false,
+      "install_id": null
+    },
+    {
+      "id": "ruixen-2",
+      "source": "ruixen",
+      "name": "Wordmark Footer / Navbar Simple",
+      "intents": [
+        "marketing",
+        "layout"
+      ],
+      "motion": 0,
+      "integration_cost": 1,
+      "api_verified": false,
+      "install_id": null
+    },
+    {
+      "id": "ruixen-3",
+      "source": "ruixen",
+      "name": "Password Field",
+      "intents": [
+        "forms"
+      ],
+      "motion": 1,
+      "integration_cost": 1,
+      "api_verified": false,
+      "install_id": null
+    },
+    {
+      "id": "ruixen-4",
+      "source": "ruixen",
+      "name": "Progressive Flux Loader",
+      "intents": [
+        "progress"
+      ],
+      "motion": 1,
+      "integration_cost": 1,
+      "api_verified": false,
+      "install_id": null
+    },
+    {
+      "id": "studio-1",
+      "source": "studio",
+      "name": "Application Shell / Sidebar",
+      "intents": [
+        "layout"
+      ],
+      "motion": 0,
+      "integration_cost": 2,
+      "api_verified": false,
+      "install_id": null
+    },
+    {
+      "id": "studio-2",
+      "source": "studio",
+      "name": "Multi Step Form",
+      "intents": [
+        "forms"
+      ],
+      "motion": 1,
+      "integration_cost": 2,
+      "api_verified": false,
+      "install_id": null
+    },
+    {
+      "id": "studio-3",
+      "source": "studio",
+      "name": "Marketing Blocks",
+      "intents": [
+        "marketing"
+      ],
+      "motion": 1,
+      "integration_cost": 2,
+      "api_verified": false,
+      "install_id": null
+    },
+    {
+      "id": "shadcn-1",
+      "source": "shadcn",
+      "name": "Calendar / Date Picker",
+      "intents": [
+        "date"
+      ],
+      "motion": 0,
+      "integration_cost": 1,
+      "api_verified": false,
+      "install_id": null
+    },
+    {
+      "id": "shadcn-2",
+      "source": "shadcn",
+      "name": "Field / Dialog / Table",
+      "intents": [
+        "forms",
+        "dialog",
+        "table"
+      ],
+      "motion": 0,
+      "integration_cost": 1,
+      "api_verified": false,
+      "install_id": null
+    },
+    {
+      "id": "shadcn-3",
+      "source": "shadcn",
+      "name": "Sidebar",
+      "intents": [
+        "layout"
+      ],
+      "motion": 0,
+      "integration_cost": 1,
+      "api_verified": false,
+      "install_id": null
+    },
+    {
+      "id": "variant-1",
+      "source": "variant",
+      "name": "Community direction exploration",
+      "intents": [
+        "inspiration",
+        "marketing"
+      ],
+      "motion": 0,
+      "integration_cost": 0,
+      "api_verified": false,
+      "install_id": null
+    }
+  ]
+}

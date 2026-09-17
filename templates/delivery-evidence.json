@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "note": "这是未验证的示例模板。替换为实际任务要求与观察；证据路径相对 evidence root。",
+  "requirements": [
+    {"id": "primary-flow", "description": "用户可以完成本次要求的主要操作", "required": true},
+    {"id": "narrow-screen", "description": "目标窄屏下主内容与操作可用", "required": true},
+    {"id": "project-checks", "description": "完成与变更相关的项目检查", "required": true}
+  ],
+  "checks": [
+    {"id": "flow", "requirements": ["primary-flow"], "status": "unverified", "observation": "尚未实际操作，需要记录前置状态、动作和结果。", "evidence": []},
+    {"id": "mobile", "requirements": ["narrow-screen"], "status": "unverified", "observation": "尚未观察目标视口，需要实际操作并保存截图。", "evidence": []},
+    {"id": "validation", "requirements": ["project-checks"], "status": "unverified", "observation": "尚未执行项目检查，需要保存真实命令结果。", "evidence": []}
+  ]
+}

@@ -1,0 +1,296 @@
+{
+  "schema_version": 1,
+  "verified_at": "2026-09-17",
+  "intents": [
+    {
+      "id": "chat",
+      "terms": [
+        "聊天",
+        "对话",
+        "chat",
+        "conversation",
+        "composer",
+        "输入消息"
+      ]
+    },
+    {
+      "id": "code",
+      "terms": [
+        "代码高亮",
+        "syntax",
+        "code block",
+        "shiki",
+        "prism"
+      ]
+    },
+    {
+      "id": "citations",
+      "terms": [
+        "引用",
+        "溯源",
+        "citation",
+        "source reference",
+        "定位原文",
+        "原文定位"
+      ]
+    },
+    {
+      "id": "tool-result",
+      "terms": [
+        "工具结果",
+        "tool result",
+        "tool output",
+        "结构化结果",
+        "approval card"
+      ]
+    },
+    {
+      "id": "progress",
+      "terms": [
+        "进度",
+        "等待",
+        "loading",
+        "progress",
+        "生成状态"
+      ]
+    },
+    {
+      "id": "markdown",
+      "terms": [
+        "markdown",
+        "只读文章",
+        "只读内容",
+        "阅读页"
+      ]
+    },
+    {
+      "id": "editor",
+      "terms": [
+        "富文本",
+        "编辑器",
+        "editor",
+        "rich text",
+        "批注",
+        "slash command"
+      ]
+    },
+    {
+      "id": "document",
+      "terms": [
+        "文档预览",
+        "文档审核",
+        "pdf",
+        "docx",
+        "xlsx",
+        "document review",
+        "document viewer",
+        "抽取校验"
+      ]
+    },
+    {
+      "id": "mindmap",
+      "terms": [
+        "思维导图",
+        "mind map",
+        "mindmap",
+        "知识树"
+      ]
+    },
+    {
+      "id": "tree",
+      "terms": [
+        "文件树",
+        "嵌套列表",
+        "层级导航",
+        "file tree",
+        "nested list",
+        "tree view"
+      ]
+    },
+    {
+      "id": "table",
+      "terms": [
+        "数据表格",
+        "后台列表",
+        "data table",
+        "table",
+        "列表筛选"
+      ]
+    },
+    {
+      "id": "date",
+      "terms": [
+        "日期范围",
+        "日期选择",
+        "日期字段",
+        "选日期",
+        "date range",
+        "date picker"
+      ]
+    },
+    {
+      "id": "schedule",
+      "terms": [
+        "日程",
+        "排程",
+        "排班",
+        "schedule",
+        "scheduling",
+        "calendar app",
+        "资源时间线"
+      ]
+    },
+    {
+      "id": "signature",
+      "terms": [
+        "手写签名",
+        "签名输入",
+        "signature"
+      ]
+    },
+    {
+      "id": "upload",
+      "terms": [
+        "上传",
+        "upload",
+        "dropzone"
+      ]
+    },
+    {
+      "id": "command",
+      "terms": [
+        "命令面板",
+        "命令菜单",
+        "command palette",
+        "command menu"
+      ]
+    },
+    {
+      "id": "permission",
+      "terms": [
+        "分享权限",
+        "权限弹层",
+        "share permission",
+        "permissions popover"
+      ]
+    },
+    {
+      "id": "otp",
+      "terms": [
+        "验证码",
+        "otp",
+        "one time password"
+      ]
+    },
+    {
+      "id": "segmented",
+      "terms": [
+        "分段",
+        "视图切换",
+        "segmented",
+        "tab indicator"
+      ]
+    },
+    {
+      "id": "icons",
+      "terms": [
+        "图标",
+        "icon",
+        "icons"
+      ]
+    },
+    {
+      "id": "marketing",
+      "terms": [
+        "落地页",
+        "营销",
+        "landing",
+        "marketing",
+        "hero",
+        "pricing",
+        "footer"
+      ]
+    },
+    {
+      "id": "layout",
+      "terms": [
+        "布局",
+        "layout",
+        "dashboard",
+        "后台骨架",
+        "侧栏"
+      ]
+    },
+    {
+      "id": "forms",
+      "terms": [
+        "表单",
+        "form",
+        "设置页",
+        "settings",
+        "forms"
+      ]
+    },
+    {
+      "id": "kanban",
+      "terms": [
+        "看板",
+        "kanban",
+        "roadmap",
+        "gantt"
+      ]
+    },
+    {
+      "id": "image",
+      "terms": [
+        "图片缩放",
+        "image zoom",
+        "image slider"
+      ]
+    },
+    {
+      "id": "color",
+      "terms": [
+        "取色",
+        "颜色选择",
+        "color picker"
+      ]
+    },
+    {
+      "id": "highlight",
+      "terms": [
+        "文字标注",
+        "手绘高亮",
+        "highlighter"
+      ]
+    },
+    {
+      "id": "reorder",
+      "terms": [
+        "排序拖拽",
+        "拖拽排序",
+        "reorder",
+        "drag to reorder"
+      ]
+    },
+    {
+      "id": "dialog",
+      "terms": [
+        "弹窗",
+        "dialog",
+        "modal",
+        "抽屉",
+        "drawer"
+      ]
+    },
+    {
+      "id": "inspiration",
+      "terms": [
+        "灵感",
+        "风格探索",
+        "visual direction",
+        "inspiration"
+      ]
+    }
+  ]
+}
