@@ -4,7 +4,7 @@
 
 **Curated components. Refined interfaces.**
 
-An agent skill for clean interfaces and thoughtful interactions.
+A React-first agent skill for clean interfaces and thoughtful interactions.
 
 [![Version 1.0](https://img.shields.io/badge/version-1.0-18181b)](https://github.com/Ciao1019/ui-sift/releases/tag/v1.0)
 [![MIT License](https://img.shields.io/badge/license-MIT-18181b)](LICENSE)
@@ -17,6 +17,20 @@ English · [简体中文](README.zh-CN.md)
 UI Sift helps coding agents choose suitable components, find official skills and MCP tools, and turn those components into a coherent product. Its focus is clear hierarchy, restrained motion, real interactions, and a consistent visual language.
 
 It adapts to your project’s framework, design system, and constraints. Use it for a small polish pass, a new page, an AI interface, a document workspace, or a UI review.
+
+## Framework support
+
+**React is the primary focus.** Most curated components target the React ecosystem, including many shadcn/ui and Tailwind-based implementations. The catalog also contains a few sources for other frameworks; components are not interchangeable across frameworks.
+
+| Framework or use | Catalog coverage |
+| --- | --- |
+| React / Next.js | Main component coverage. Verify each component’s React version, dependencies, and client/server rendering requirements. |
+| Vue / Nuxt | nxui; DayFlow provides a Vue integration. React components cannot be installed as Vue components. |
+| Angular / Svelte | DayFlow calendar integrations; not a full component catalog for these frameworks. |
+| Go templ | shadcn-templ, which is distinct from React’s shadcn/ui. |
+| Visual exploration | Variant is a design reference, not a framework-specific runtime dependency. |
+
+The skill checks the target framework before selecting components. Design guidance can transfer between stacks; source code must match the target project. See the [catalog](references/catalog.md) for component-level boundaries.
 
 ## Install in one command
 
@@ -79,8 +93,6 @@ Invocation syntax varies by agent; you can also ask it to read `SKILL.md`. The d
 | **Practical integration** | Preserve your stack, align tokens and shared primitives, wire data and events, and cover necessary states. |
 | **Proportionate workflow** | Keep small edits lightweight; expand into briefs, contracts, and evidence for larger tasks. |
 | **Honest verification** | Separate downloaded code, installed components, working behavior, visual review, and unverified work. |
-
-The catalog is weighted toward React, with Vue/Nuxt, Go templ, and multi-framework options where the listed sources support them. An incompatible source stays a design reference; adopting the skill does not require changing frameworks.
 
 ## The curated library
 

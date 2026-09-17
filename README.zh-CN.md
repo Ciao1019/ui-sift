@@ -4,7 +4,7 @@
 
 **精选组件，精修界面。**
 
-面向简洁界面与精致交互的开源 Agent Skill。
+以 React 为主，面向简洁界面与精致交互的开源 Agent Skill。
 
 [![版本 1.0](https://img.shields.io/badge/version-1.0-18181b)](https://github.com/Ciao1019/ui-sift/releases/tag/v1.0)
 [![MIT 许可](https://img.shields.io/badge/license-MIT-18181b)](LICENSE)
@@ -17,6 +17,20 @@
 UI Sift 帮助编程 Agent 挑选适合的组件、发现官方 skills 和 MCP，并把来自不同来源的能力整合成统一的产品界面。关注清晰的层级、克制的动效、真实的交互和一致的视觉语言。
 
 它依据使用者自己的框架、设计系统与约束工作，适合局部打磨、新页面、AI 对话、文档工作台和 UI 评审，不预设工程目录、包管理器或业务实现。
+
+## 框架支持范围
+
+**React 是主要适用方向。** 精选组件大多来自 React 生态，包含许多基于 shadcn/ui 和 Tailwind 的实现。目录也收录了少量其他框架的来源，不同框架的组件不能直接混用。
+
+| 框架或用途 | 目录覆盖范围 |
+| --- | --- |
+| React / Next.js | 主要组件覆盖。仍需逐组件核对 React 版本、依赖以及客户端 / 服务端渲染要求。 |
+| Vue / Nuxt | nxui；DayFlow 提供 Vue 集成。不能直接安装 React 组件作为 Vue 组件使用。 |
+| Angular / Svelte | DayFlow 的日历集成，不代表这两个框架拥有完整的组件目录。 |
+| Go templ | shadcn-templ，与 React 的 shadcn/ui 是不同项目。 |
+| 视觉探索 | Variant 用于设计参考，不作为某个框架的运行时依赖。 |
+
+Skill 会先确认目标框架再选组件。设计方法可以跨技术栈借鉴，源码必须与目标工程匹配；具体边界见[资源目录](references/catalog.md)。
 
 ## 一条命令安装
 
@@ -78,8 +92,6 @@ npx skills add Ciao1019/ui-sift --list
 | **实际集成** | 适配已有技术栈，统一 tokens 和基础组件，接通数据、事件与必要状态。 |
 | **按需工作流** | 小改动直接处理；复杂任务按需展开简报、组件契约和验收记录。 |
 | **有依据的验证** | 区分下载、安装、业务可用、视觉检查和未验证事项。 |
-
-资源以 React 为主，也包含 Vue/Nuxt、Go templ 与支持多个框架的组件。框架不兼容时仅借鉴设计，继续使用适合目标工程的实现。
 
 ## 精选资源
 
