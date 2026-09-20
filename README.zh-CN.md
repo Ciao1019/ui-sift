@@ -155,6 +155,10 @@ python3 -m unittest discover -s tests -v
 
 欢迎贡献具体组件推荐、官方入口更新、翻译和可复现的问题。新增来源请注明技术栈、具体强项、与现有条目的区别及官方证据，同步维护[目录](references/catalog.md)、[接入指南](references/acquisition.md)和[数据](data/resources.json)，并运行相关测试。
 
+🙏 致谢
+公开站点 UI 与排版设计借鉴自 astro-theme-retypeset。
+感谢 LinuxDo 社区的支持。
+
 ## 致谢与许可
 
 工作流的组织方式参考了 [Anthropic frontend-design](https://github.com/anthropics/skills/tree/main/skills/frontend-design)、[Vercel agent-skills](https://github.com/vercel-labs/agent-skills) 和 [Vibe-Skills](https://github.com/foryourhealth111-pixel/Vibe-Skills)。借鉴范围与验证边界见[研究说明](references/research-notes.md)，本包不捆绑这些项目的 skills 或第三方组件源码。
