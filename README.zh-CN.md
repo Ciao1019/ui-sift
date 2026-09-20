@@ -155,8 +155,7 @@ python3 -m unittest discover -s tests -v
 
 欢迎贡献具体组件推荐、官方入口更新、翻译和可复现的问题。新增来源请注明技术栈、具体强项、与现有条目的区别及官方证据，同步维护[目录](references/catalog.md)、[接入指南](references/acquisition.md)和[数据](data/resources.json)，并运行相关测试。
 
-🙏 致谢
-公开站点 UI 与排版设计借鉴自 astro-theme-retypeset。
+## 🙏 致谢
 感谢 LinuxDo 社区的支持。
 
 ## 致谢与许可
