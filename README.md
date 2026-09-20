@@ -160,4 +160,8 @@ Contributions are welcome: focused component recommendations, updated official a
 
 The workflow draws organizational lessons from [Anthropic frontend-design](https://github.com/anthropics/skills/tree/main/skills/frontend-design), [Vercel agent-skills](https://github.com/vercel-labs/agent-skills), and [Vibe-Skills](https://github.com/foryourhealth111-pixel/Vibe-Skills). The [research notes](references/research-notes.md) explain the scope and verification limits. UI Sift does not bundle those projects’ skills or third-party component source.
 
+🙏 致谢
+公开站点 UI 与排版设计借鉴自 astro-theme-retypeset。
+感谢 LinuxDo 社区的支持。
+
 [MIT](LICENSE) for UI Sift’s original code and documentation. Referenced libraries, components, templates, and paid assets retain their own licenses.
